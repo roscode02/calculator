@@ -14,14 +14,14 @@ class ThirdFragment : Fragment(R.layout.fragment_third) {
 
         binding.apply {
 
-            binding.enternum.setOnClickListener {
+            enternum.setOnClickListener {
                 var numtwo: Double
-                var numone: Double = binding.numone.text.toString().toDouble()
+                var numone: Double = numone.text.toString().toDouble()
                 numtwo = numone
-                numone = numone * numone * (3.14)
-                binding.outputtextone.text = numone.toString()
+                numone *= numone * (3.14)
+                outputtextone.text = numone.toString()
                 numtwo *= 2 * 3.14
-                binding.outputtexttwo.text = numtwo.toString()
+                outputtexttwo.text = numtwo.toString()
             }
 
             //Any new binding. should be written here
