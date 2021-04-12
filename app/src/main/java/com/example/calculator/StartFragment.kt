@@ -7,8 +7,6 @@ import androidx.navigation.Navigation
 import com.example.calculator.databinding.FragmentStartBinding
 
 
-
-
 class StartFragment : Fragment(R.layout.fragment_start) {
     private lateinit var binding: FragmentStartBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

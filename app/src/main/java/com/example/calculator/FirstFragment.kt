@@ -17,7 +17,7 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
             replace(R.id.flfragment, thirdFragment)
             commit()
         }
-        binding.apply{
+        binding.apply {
 
 
             circleButton.setOnClickListener {
